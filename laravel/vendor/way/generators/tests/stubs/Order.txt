@@ -1,7 +1,5 @@
-<?php namespace App;
+<?php
 
-use Eloquent;
-
-class Order extends Eloquent {
+class Order extends \Eloquent {
 	protected $fillable = [];
 }

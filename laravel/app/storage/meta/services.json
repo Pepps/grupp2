@@ -1,5 +1,6 @@
 {
     "providers": [
+        "Way\\Generators\\GeneratorsServiceProvider",
         "Illuminate\\Foundation\\Providers\\ArtisanServiceProvider",
         "Illuminate\\Auth\\AuthServiceProvider",
         "Illuminate\\Cache\\CacheServiceProvider",
@@ -25,18 +26,17 @@
         "Illuminate\\Translation\\TranslationServiceProvider",
         "Illuminate\\Validation\\ValidationServiceProvider",
         "Illuminate\\View\\ViewServiceProvider",
-        "Illuminate\\Workbench\\WorkbenchServiceProvider",
-        "Way\\Generators\\GeneratorsServiceProvider"
+        "Illuminate\\Workbench\\WorkbenchServiceProvider"
     ],
     "eager": [
+        "Way\\Generators\\GeneratorsServiceProvider",
         "Illuminate\\Cookie\\CookieServiceProvider",
         "Illuminate\\Database\\DatabaseServiceProvider",
         "Illuminate\\Encryption\\EncryptionServiceProvider",
         "Illuminate\\Filesystem\\FilesystemServiceProvider",
         "Illuminate\\Session\\SessionServiceProvider",
         "Illuminate\\View\\ViewServiceProvider",
-        "Illuminate\\Workbench\\WorkbenchServiceProvider",
-        "Way\\Generators\\GeneratorsServiceProvider"
+        "Illuminate\\Workbench\\WorkbenchServiceProvider"
     ],
     "deferred": {
         "artisan": "Illuminate\\Foundation\\Providers\\ArtisanServiceProvider",
