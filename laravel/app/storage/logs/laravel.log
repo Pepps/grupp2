@@ -1,0 +1,59 @@
+[2015-01-28 09:35:54] production.ERROR: exception 'InvalidArgumentException' with message 'Command "server" is not defined.
+
+Did you mean this?
+    serve' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:564
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('server')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2015-01-28 11:46:36] production.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2015-01-28 11:46:45] production.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2015-01-28 11:47:18] production.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2015-01-28 11:51:10] production.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2015-01-29 11:51:19] production.ERROR: exception 'InvalidArgumentException' with message 'Command "server" is not defined.
+
+Did you mean this?
+    serve' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:564
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('server')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2015-01-29 11:52:56] production.ERROR: exception 'InvalidArgumentException' with message 'Command "scaffold" is not defined.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:564
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('scaffold')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2015-01-29 11:54:55] production.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
