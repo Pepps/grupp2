@@ -1,9 +1,5 @@
-<?php namespace $NAMESPACE$;
+<?php
 
-use Eloquent;
-
-class $NAME$ extends Eloquent {
-
+class $NAME$ extends \Eloquent {
 	protected $fillable = [];
-
 }
