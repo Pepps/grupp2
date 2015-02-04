@@ -35,6 +35,6 @@
 	},
 	"minimum-stability": "stable",
 	"require-dev": {
-		"way/generators": "~3.0"
+		"way/generators": "~2.0"
 	}
 }
