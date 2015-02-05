@@ -12,9 +12,20 @@
 */
 
 // route to show the duck form
+
+Route::get('/authtest', array('before' => 'auth.basic', function()
+{
+    return View::make('hello');
+}));
+
 Route::get('/ducks', function()
 {
     return View::make('duck-form');
+});
+
+Route::group(array('prefix' => 'api/v1', 'before' => 'auth.basic'), function()
+{
+    Route::resource('url', 'UrlController');
 });
 
 // route to process the ducks form

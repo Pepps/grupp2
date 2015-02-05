@@ -12,15 +12,14 @@ class CreateUrlsTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::table('urls', function(Blueprint $table)
-		{
-			$table->increments('id');
-        	$table->integer('user_id');
-        	$table->string('url');
-        	$table->string('description');
-
-        	$table->timestamps();
-		});
+	    Schema::create('urls', function(Blueprint $table)
+	    {
+	        $table->increments('id');
+	        $table->integer('user_id');
+	        $table->string('url');
+	        $table->string('description');
+	        $table->timestamps();
+    	});
 	}
 
 	/**
