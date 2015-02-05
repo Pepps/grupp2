@@ -11,8 +11,4 @@
 |
 */
 
-Route::get('/', function()
-{
-	/*return View::make('hello');*/
-    return "Unicorn";
-});
+Route::get('/', 'HomeController@index');
