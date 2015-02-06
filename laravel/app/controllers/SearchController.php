@@ -8,39 +8,28 @@ class SearchController extends BaseController {
     $data = [];
 
     for($i = 0; $i < sizeof($keys); $i++){
-      $data[$keys[$i]] = [explode('-', $vals[$i])];
+      $data[$keys[$i]] = explode('-', $vals[$i]);
     }
 
-    /*foreach ($keys as $key) {
-      //$data[$key] = [];
-      foreach ($vals as $item) {
-        $data[$key] = explode('-', $item);
+    for($i = 0; $i < sizeof($data["status"]); $i++){
+      $first = substr($data["status"][$i], 0, 1);
+      $last = substr($data["status"][$i], sizeof($data["status"][$i])+1, 1);
+      //echo sizeof($data["status"][$i]) . "<br>";
+      echo "data: " . $data["status"][$i] . "<br>";
+      echo "!: " . $last . "<br>";
+      if($first == "!"){
+        //return "First char is !";
+        (int)$nr = substr($data["status"][$i], 1, sizeof($data["status"][$i])+1);
+        return $nr;
+      }else if($last == "!"){
+        (int)$nr = substr($data["status"][$i], 0, sizeof($data["status"][$i])+1);
+        return $nr;
+      }else{
+        return "not a valid formating";
       }
-    }*/
+    }
 
-
-    /*switch ($key) {
-      case "":
-      code to be executed if n=label1;
-      break;
-      case label2:
-      code to be executed if n=label2;
-      break;
-      case label3:
-      code to be executed if n=label3;
-      default:
-      code to be executed if n is different from all labels;
-    }*/
-
-
-    /*foreach ($vals as $item) {
-      $sometext = explode('-', $item);
-    }*/
-
-    $sometext = explode("-", $vals[0]);
-
-    return var_dump($data["category"]);
-    //return sizeof($vals);
+    //echo "<pre>" . json_encode($data) . "</pre>";
   }
 
 }
