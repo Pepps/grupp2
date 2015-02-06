@@ -2,6 +2,7 @@
 
 class HomeController extends BaseController {
 
+<<<<<<< HEAD
 	/*
 	|--------------------------------------------------------------------------
 	| Default Home Controller
@@ -19,6 +20,10 @@ class HomeController extends BaseController {
 	{
 		//return View::make('hello');
         return "hello world! :o";
+=======
+	public function index(){
+		return View::make('home');
+>>>>>>> master
 	}
 
 }
