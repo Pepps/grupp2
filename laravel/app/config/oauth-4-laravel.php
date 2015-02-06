@@ -24,7 +24,7 @@ return array(
         'Facebook' => array(
             'client_id'     => '361383370712713',
             'client_secret' => '9fa51885aa102fcec4669c565db182a7',
-            'scope'         => array(),
+            'scope'         => array('public_profile', 'email'),
         ),  
          /**
          * Author Joakim D 

@@ -10,6 +10,9 @@
 	"require": {
   		"artdarek/oauth-4-laravel": "dev-master"
 	},
+	"require-dev": {
+    	"way/generators": "~3.0"
+	},
 	"autoload": {
 		"classmap": [
 			"app/commands",
