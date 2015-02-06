@@ -1,0 +1,490 @@
+[2015-01-28 09:35:54] production.ERROR: exception 'InvalidArgumentException' with message 'Command "server" is not defined.
+
+Did you mean this?
+    serve' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:564
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('server')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2015-01-28 11:46:36] production.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2015-01-28 11:46:45] production.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2015-01-28 11:47:18] production.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2015-01-28 11:51:10] production.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2015-01-29 11:51:19] production.ERROR: exception 'InvalidArgumentException' with message 'Command "server" is not defined.
+
+Did you mean this?
+    serve' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:564
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('server')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2015-01-29 11:52:56] production.ERROR: exception 'InvalidArgumentException' with message 'Command "scaffold" is not defined.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:564
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('scaffold')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2015-01-29 11:54:55] production.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:516
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(550): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2015-01-29 14:05:56] production.ERROR: exception 'InvalidArgumentException' with message 'Command "php" is not defined.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:564
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('php')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2015-01-29 14:06:26] production.ERROR: exception 'InvalidArgumentException' with message 'Command "php" is not defined.' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:564
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(190): Symfony\Component\Console\Application->find('php')
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2015-01-29 14:10:07] production.ERROR: exception 'ErrorException' with message 'file_put_contents(C:\Users\Jesper\Documents\ME1526\laravel\app/Http/Controllers/BlogsController.php): failed to open stream: No such file or directory' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Filesystem\Filesystem.php:20
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_put_conten...', 'C:\Users\Jesper...', 20, Array)
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Filesystem\Filesystem.php(20): file_put_contents('C:\Users\Jesper...', '<?php namespace...')
+#2 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Generator.php(37): Way\Generators\Filesystem\Filesystem->make('C:\Users\Jesper...', '<?php namespace...')
+#3 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Commands\GeneratorCommand.php(61): Way\Generators\Generator->make('C:\Users\Jesper...', Array, 'C:\Users\Jesper...')
+#4 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Way\Generators\Commands\GeneratorCommand->fire()
+#5 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(128): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Commands\ScaffoldGeneratorCommand.php(56): Illuminate\Console\Command->call('generate:contro...', Array)
+#9 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Commands\ResourceGeneratorCommand.php(34): Way\Generators\Commands\ScaffoldGeneratorCommand->callController('blog')
+#10 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Way\Generators\Commands\ResourceGeneratorCommand->fire()
+#11 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Way\Generators\Commands\ScaffoldGeneratorCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#17 {main} [] []
+[2015-01-29 14:18:34] production.ERROR: exception 'ErrorException' with message 'file_put_contents(C:\Users\Jesper\Documents\ME1526\laravel\app/Http/Controllers/BlogsController.php): failed to open stream: No such file or directory' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Filesystem\Filesystem.php:20
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_put_conten...', 'C:\Users\Jesper...', 20, Array)
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Filesystem\Filesystem.php(20): file_put_contents('C:\Users\Jesper...', '<?php namespace...')
+#2 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Generator.php(37): Way\Generators\Filesystem\Filesystem->make('C:\Users\Jesper...', '<?php namespace...')
+#3 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Commands\GeneratorCommand.php(61): Way\Generators\Generator->make('C:\Users\Jesper...', Array, 'C:\Users\Jesper...')
+#4 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Way\Generators\Commands\GeneratorCommand->fire()
+#5 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(128): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Commands\ScaffoldGeneratorCommand.php(56): Illuminate\Console\Command->call('generate:contro...', Array)
+#9 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Commands\ResourceGeneratorCommand.php(34): Way\Generators\Commands\ScaffoldGeneratorCommand->callController('blog')
+#10 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Way\Generators\Commands\ResourceGeneratorCommand->fire()
+#11 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Way\Generators\Commands\ScaffoldGeneratorCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#17 {main} [] []
+[2015-01-29 14:33:30] production.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database 'forge'' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php:47
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(47): PDO->__construct('mysql:host=loca...', 'forge', '', Array)
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 C:\Users\Jesper\Documents\ME1526\laravel\bootstrap\compiled.php(7700): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 C:\Users\Jesper\Documents\ME1526\laravel\bootstrap\compiled.php(7696): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 C:\Users\Jesper\Documents\ME1526\laravel\bootstrap\compiled.php(7608): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#5 C:\Users\Jesper\Documents\ME1526\laravel\bootstrap\compiled.php(7563): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#6 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php(167): Illuminate\Database\DatabaseManager->connection(NULL)
+#7 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php(135): Illuminate\Database\Migrations\DatabaseMigrationRepository->getConnection()
+#8 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(371): Illuminate\Database\Migrations\DatabaseMigrationRepository->repositoryExists()
+#9 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(98): Illuminate\Database\Migrations\Migrator->repositoryExists()
+#10 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(61): Illuminate\Database\Console\Migrations\MigrateCommand->prepareDatabase()
+#11 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#12 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(128): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Commands\ResourceGeneratorCommand.php(182): Illuminate\Console\Command->call('migrate')
+#16 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Commands\ResourceGeneratorCommand.php(37): Way\Generators\Commands\ResourceGeneratorCommand->callMigrate()
+#17 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Way\Generators\Commands\ResourceGeneratorCommand->fire()
+#18 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Way\Generators\Commands\ScaffoldGeneratorCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2015-02-02 08:05:13] production.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Det gick inte att göra en anslutning eftersom måldatorn aktivt nekade det.
+' in C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php:47
+Stack trace:
+#0 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php(47): PDO->__construct('mysql:host=loca...', 'forge', '', Array)
+#1 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Connectors\MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 C:\Users\Jesper\Documents\ME1526\laravel\bootstrap\compiled.php(7700): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 C:\Users\Jesper\Documents\ME1526\laravel\bootstrap\compiled.php(7696): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array)
+#4 C:\Users\Jesper\Documents\ME1526\laravel\bootstrap\compiled.php(7608): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#5 C:\Users\Jesper\Documents\ME1526\laravel\bootstrap\compiled.php(7563): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#6 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php(167): Illuminate\Database\DatabaseManager->connection(NULL)
+#7 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\DatabaseMigrationRepository.php(135): Illuminate\Database\Migrations\DatabaseMigrationRepository->getConnection()
+#8 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(371): Illuminate\Database\Migrations\DatabaseMigrationRepository->repositoryExists()
+#9 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(98): Illuminate\Database\Migrations\Migrator->repositoryExists()
+#10 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php(61): Illuminate\Database\Console\Migrations\MigrateCommand->prepareDatabase()
+#11 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#12 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(128): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArrayInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Commands\ResourceGeneratorCommand.php(182): Illuminate\Console\Command->call('migrate')
+#16 C:\Users\Jesper\Documents\ME1526\laravel\vendor\way\generators\src\Way\Generators\Commands\ResourceGeneratorCommand.php(37): Way\Generators\Commands\ResourceGeneratorCommand->callMigrate()
+#17 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(112): Way\Generators\Commands\ResourceGeneratorCommand->fire()
+#18 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 C:\Users\Jesper\Documents\ME1526\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Way\Generators\Commands\ScaffoldGeneratorCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
+#24 {main} [] []
+[2015-02-05 13:56:54] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:5738
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#12 {main} [] []
+[2015-02-05 14:08:55] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:5738
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#12 {main} [] []
+[2015-02-05 14:48:10] production.ERROR: exception 'InvalidArgumentException' with message 'View [layouts.master] not found.' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:9498
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9471): Illuminate\View\FileViewFinder->findInPaths('layouts.master', Array)
+#1 /home/magra/code/php/grupp2/laravel/vendor/laravel/framework/src/Illuminate/View/Factory.php(124): Illuminate\View\FileViewFinder->find('layouts.master')
+#2 /home/magra/code/php/grupp2/laravel/app/storage/views/0e0166bc0f8fe4f4fc1a6dc88d42e0df(11): Illuminate\View\Factory->make('layouts.master', Array)
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9867): include('/home/magra/cod...')
+#4 /home/magra/code/php/grupp2/laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/magra/cod...', Array)
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9745): Illuminate\View\Engines\CompilerEngine->get('/home/magra/cod...', Array)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9732): Illuminate\View\View->getContents()
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9723): Illuminate\View\View->renderContents()
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(10425): Illuminate\View\View->render()
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9955): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#10 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5245): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#11 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5054): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#12 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#13 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#21 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#22 {main}
+
+Next exception 'ErrorException' with message 'View [layouts.master] not found. (View: /home/magra/code/php/grupp2/laravel/app/views/home.blade.php)' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:9498
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9869): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 /home/magra/code/php/grupp2/laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/magra/cod...', Array)
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9745): Illuminate\View\Engines\CompilerEngine->get('/home/magra/cod...', Array)
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9732): Illuminate\View\View->getContents()
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9723): Illuminate\View\View->renderContents()
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(10425): Illuminate\View\View->render()
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9955): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5245): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5054): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#19 {main} [] []
+[2015-02-05 14:48:11] production.ERROR: exception 'InvalidArgumentException' with message 'View [layouts.master] not found.' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:9498
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9471): Illuminate\View\FileViewFinder->findInPaths('layouts.master', Array)
+#1 /home/magra/code/php/grupp2/laravel/vendor/laravel/framework/src/Illuminate/View/Factory.php(124): Illuminate\View\FileViewFinder->find('layouts.master')
+#2 /home/magra/code/php/grupp2/laravel/app/storage/views/0e0166bc0f8fe4f4fc1a6dc88d42e0df(11): Illuminate\View\Factory->make('layouts.master', Array)
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9867): include('/home/magra/cod...')
+#4 /home/magra/code/php/grupp2/laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/magra/cod...', Array)
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9745): Illuminate\View\Engines\CompilerEngine->get('/home/magra/cod...', Array)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9732): Illuminate\View\View->getContents()
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9723): Illuminate\View\View->renderContents()
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(10425): Illuminate\View\View->render()
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9955): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#10 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5245): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#11 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5054): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#12 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#13 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#21 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#22 {main}
+
+Next exception 'ErrorException' with message 'View [layouts.master] not found. (View: /home/magra/code/php/grupp2/laravel/app/views/home.blade.php)' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:9498
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9869): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 /home/magra/code/php/grupp2/laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/magra/cod...', Array)
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9745): Illuminate\View\Engines\CompilerEngine->get('/home/magra/cod...', Array)
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9732): Illuminate\View\View->getContents()
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9723): Illuminate\View\View->renderContents()
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(10425): Illuminate\View\View->render()
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9955): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5245): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5054): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#19 {main} [] []
+[2015-02-05 14:48:26] production.ERROR: exception 'InvalidArgumentException' with message 'View [layouts.master] not found.' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:9498
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9471): Illuminate\View\FileViewFinder->findInPaths('layouts.master', Array)
+#1 /home/magra/code/php/grupp2/laravel/vendor/laravel/framework/src/Illuminate/View/Factory.php(124): Illuminate\View\FileViewFinder->find('layouts.master')
+#2 /home/magra/code/php/grupp2/laravel/app/storage/views/0e0166bc0f8fe4f4fc1a6dc88d42e0df(11): Illuminate\View\Factory->make('layouts.master', Array)
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9867): include('/home/magra/cod...')
+#4 /home/magra/code/php/grupp2/laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/magra/cod...', Array)
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9745): Illuminate\View\Engines\CompilerEngine->get('/home/magra/cod...', Array)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9732): Illuminate\View\View->getContents()
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9723): Illuminate\View\View->renderContents()
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(10425): Illuminate\View\View->render()
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9955): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#10 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5245): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#11 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5054): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#12 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#13 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#21 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#22 {main}
+
+Next exception 'ErrorException' with message 'View [layouts.master] not found. (View: /home/magra/code/php/grupp2/laravel/app/views/home.blade.php)' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:9498
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9869): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(InvalidArgumentException), 1)
+#1 /home/magra/code/php/grupp2/laravel/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/magra/cod...', Array)
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9745): Illuminate\View\Engines\CompilerEngine->get('/home/magra/cod...', Array)
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9732): Illuminate\View\View->getContents()
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9723): Illuminate\View\View->renderContents()
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(10425): Illuminate\View\View->render()
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(9955): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5245): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5054): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#19 {main} [] []
+[2015-02-05 14:50:53] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:5738
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#12 {main} [] []
+[2015-02-05 14:53:27] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:5738
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#12 {main} [] []
+[2015-02-05 14:53:27] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:5738
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#12 {main} [] []
+[2015-02-05 14:53:27] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:5738
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#12 {main} [] []
+[2015-02-05 14:53:27] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:5738
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#12 {main} [] []
+[2015-02-05 14:53:32] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:5738
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#12 {main} [] []
+[2015-02-05 14:56:23] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:5738
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#12 {main} [] []
+[2015-02-05 15:00:15] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:5738
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#12 {main} [] []
+[2015-02-05 15:01:24] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:5738
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#12 {main} [] []
+[2015-02-05 15:01:36] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php:5738
+Stack trace:
+#0 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5060): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5048): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /home/magra/code/php/grupp2/laravel/bootstrap/compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /home/magra/code/php/grupp2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /home/magra/code/php/grupp2/laravel/server.php(19): require_once('/home/magra/cod...')
+#12 {main} [] []
