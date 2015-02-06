@@ -1,4 +1,3 @@
-C:\Users\Jesper\Documents\ME1526\laravel\app/views/posts/index.blade.php
 
 <!-- app/views/duck-form.blade.php -->
 <!doctype html>
