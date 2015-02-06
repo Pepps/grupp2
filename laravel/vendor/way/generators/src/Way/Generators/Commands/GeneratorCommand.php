@@ -10,7 +10,7 @@ use Config;
 abstract class GeneratorCommand extends Command {
 
     /**
-     * @var \Way\Generators\ModelGenerator
+     * @var \Way\Generators\Generator
      */
     protected $generator;
 
@@ -67,6 +67,17 @@ abstract class GeneratorCommand extends Command {
         {
             $this->error("The file, {$filePathToGenerate}, already exists! I don't want to overwrite it.");
         }
+    }
+
+    /**
+     * Get the full namespace.
+     *
+     * @param  string  $type
+     * @return string
+     */
+    protected function getNamespace($type)
+    {
+        return trim($this->laravel['config']['namespaces.'.$type], '\\');
     }
 
     /**

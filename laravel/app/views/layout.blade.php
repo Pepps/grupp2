@@ -9,6 +9,7 @@
     <script src="javascript/jquery-ui-1.9.2.js"></script>
     <script src="javascript/jquery.ui.touch-punch.js"></script>
     <script src="javascript/user_jquery.js"></script>
+    <script src="https://apis.google.com/js/client:platform.js" async defer></script>
   </head>
 <body>
     @yield('content')

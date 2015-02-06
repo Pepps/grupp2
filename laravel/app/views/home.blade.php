@@ -11,6 +11,7 @@
       <div class="welcome_box">
         &nbsp; &nbsp;<span class="dark">Logga in eller</span> <br/>
         <span class="trigger_registration">registrera dig</span>
+
       </div>
 
 
@@ -70,6 +71,16 @@
           Lösenord: &nbsp;
           <input type="text" name="password">
           <br>
+                          <span id="signinButton">
+        <span class="g-signin"
+        data-callback="signinCallback"
+        data-clientid="179291477685-vmnc97hujne8rf4rv7ihtpta15fvbbf1.apps.googleusercontent.com"
+        data-cookiepolicy="single_host_origin"
+        data-requestvisibleactions="http://schema.org/AddAction"
+        data-scope="https://www.googleapis.com/auth/plus.login">
+        </span>
+        </span> 
+
           <a href="user.html"><div class="login_button">Logga in</div></a>
         </form>
       </div>
