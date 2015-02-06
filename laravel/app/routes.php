@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -72,3 +73,5 @@ Route::post('/ducks', function()
 
 });
 
+Route::get('/', 'HomeController@index');
+Route::get("/search/{key}/{val}", "SearchController@index");
