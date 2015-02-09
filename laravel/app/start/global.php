@@ -62,6 +62,11 @@ App::error(function(Exception $exception, $code)
 |
 */
 
+App::missing(function($exception)
+{
+	return Response::view('404.php', array(), 404);
+});
+
 App::down(function()
 {
 	return Response::make("Be right back!", 503);
