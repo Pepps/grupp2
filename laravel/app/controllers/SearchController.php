@@ -37,9 +37,9 @@ class SearchController extends BaseController {
       foreach($value as $string){
         $split = explode('+', $string);
         foreach ($split as $explode){
-        $query = $query . " '" . $explode;
+        $query = $query . " '%" . $explode . "%'";
           if(end($split) !== $explode){
-            $query = $query . "' AND";
+            $query = $query . " AND";
           }
         }
         if(end($value) !== $string) {
