@@ -1,4 +1,4 @@
 <?php
 
 Route::get('/', 'HomeController@index');
-Route::get("/search/{key}/{val}", "SearchController@index");
+Route::get("/search/{option}/{key}/{val}", "SearchController@index");

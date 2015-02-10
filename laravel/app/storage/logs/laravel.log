@@ -507,3 +507,598 @@ Stack trace:
 Stack trace:
 #0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
 #1 {main} [] []
+[2015-02-09 13:47:48] production.ERROR: exception 'ErrorException' with message 'Undefined index: status' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:14
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(14): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', 'C:\\wamp\\www\\gru...', 14, Array)
+#1 [internal function]: SearchController->index('email_category', 'foo@foo.com-adm...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('email_category', 'foo@foo.com-adm...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-09 13:55:14] production.ERROR: exception 'ErrorException' with message 'Array to string conversion' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:32
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(32): Illuminate\Exception\Handler->handleError(8, 'Array to string...', 'C:\\wamp\\www\\gru...', 32, Array)
+#1 [internal function]: SearchController->index('email_category', 'foo@foo.com-adm...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('email_category', 'foo@foo.com-adm...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 09:30:11] production.ERROR: 500 - Invalid argument supplied for foreach() @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:34
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(34): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', 'C:\\wamp\\www\\gru...', 34, Array)
+#1 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 09:31:43] production.ERROR: 500 - syntax error, unexpected 'echo' (T_ECHO) @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-10 09:32:08] production.ERROR: 500 - syntax error, unexpected 'echo' (T_ECHO) @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-10 09:32:09] production.ERROR: 500 - syntax error, unexpected 'echo' (T_ECHO) @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-10 09:32:10] production.ERROR: 500 - syntax error, unexpected 'echo' (T_ECHO) @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-10 09:32:31] production.ERROR: 500 - syntax error, unexpected 'echo' (T_ECHO) @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-10 09:32:32] production.ERROR: 500 - syntax error, unexpected 'echo' (T_ECHO) @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-10 09:32:33] production.ERROR: 500 - syntax error, unexpected 'echo' (T_ECHO) @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-10 09:32:46] production.ERROR: 500 - syntax error, unexpected 'echo' (T_ECHO) @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-10 09:32:47] production.ERROR: 500 - syntax error, unexpected 'echo' (T_ECHO) @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-10 09:32:48] production.ERROR: 500 - syntax error, unexpected 'echo' (T_ECHO) @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:32
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-10 09:33:26] production.ERROR: 500 - syntax error, unexpected ';' @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:31
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-10 09:33:28] production.ERROR: 500 - syntax error, unexpected ';' @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:31
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-10 09:33:33] production.ERROR: 500 - Invalid argument supplied for foreach() @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:34
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(34): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', 'C:\\wamp\\www\\gru...', 34, Array)
+#1 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 09:33:43] production.ERROR: 500 - Invalid argument supplied for foreach() @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:34
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(34): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', 'C:\\wamp\\www\\gru...', 34, Array)
+#1 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 09:33:56] production.ERROR: 500 - Invalid argument supplied for foreach() @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:34
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(34): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', 'C:\\wamp\\www\\gru...', 34, Array)
+#1 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 09:33:56] production.ERROR: 500 - Invalid argument supplied for foreach() @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:34
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(34): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', 'C:\\wamp\\www\\gru...', 34, Array)
+#1 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 09:33:57] production.ERROR: 500 - Invalid argument supplied for foreach() @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:34
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(34): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', 'C:\\wamp\\www\\gru...', 34, Array)
+#1 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 09:34:15] production.ERROR: 500 - Invalid argument supplied for foreach() @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:34
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(34): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', 'C:\\wamp\\www\\gru...', 34, Array)
+#1 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 09:36:19] production.ERROR: 500 - Invalid argument supplied for foreach() @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:34
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(34): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', 'C:\\wamp\\www\\gru...', 34, Array)
+#1 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 09:40:06] production.ERROR: 500 - Invalid argument supplied for foreach() @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:34
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(34): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', 'C:\\wamp\\www\\gru...', 34, Array)
+#1 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 09:40:08] production.ERROR: 500 - Invalid argument supplied for foreach() @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:34
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(34): Illuminate\Exception\Handler->handleError(2, 'Invalid argumen...', 'C:\\wamp\\www\\gru...', 34, Array)
+#1 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 09:41:38] production.ERROR: 500 - Array to string conversion @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'Array to string conversion' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:32
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(32): Illuminate\Exception\Handler->handleError(8, 'Array to string...', 'C:\\wamp\\www\\gru...', 32, Array)
+#1 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 09:54:39] production.ERROR: 500 - explode() expects parameter 2 to be string, array given @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'explode() expects parameter 2 to be string, array given' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:36
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'explode() expec...', 'C:\\wamp\\www\\gru...', 36, Array)
+#1 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(36): explode('+', Array)
+#2 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#3 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#6 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#20 {main} [] []
+[2015-02-10 09:55:11] production.ERROR: 500 - explode() expects parameter 2 to be string, array given @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'explode() expects parameter 2 to be string, array given' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:36
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'explode() expec...', 'C:\\wamp\\www\\gru...', 36, Array)
+#1 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(36): explode('+', Array)
+#2 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#3 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#6 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#20 {main} [] []
+[2015-02-10 09:57:08] production.ERROR: 500 - explode() expects parameter 2 to be string, array given @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'explode() expects parameter 2 to be string, array given' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:36
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'explode() expec...', 'C:\\wamp\\www\\gru...', 36, Array)
+#1 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(36): explode('+', Array)
+#2 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#3 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#6 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#20 {main} [] []
+[2015-02-10 09:57:57] production.ERROR: 500 - Array to string conversion @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'Array to string conversion' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:37
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(37): Illuminate\Exception\Handler->handleError(8, 'Array to string...', 'C:\\wamp\\www\\gru...', 37, Array)
+#1 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 10:10:04] production.ERROR: 500 - explode() expects parameter 2 to be string, array given @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'explode() expects parameter 2 to be string, array given' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:37
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'explode() expec...', 'C:\\wamp\\www\\gru...', 37, Array)
+#1 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(37): explode('+', Array)
+#2 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#3 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#6 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#20 {main} [] []
+[2015-02-10 10:10:17] production.ERROR: 500 - Array to string conversion @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'Array to string conversion' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:38
+Stack trace:
+#0 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(38): Illuminate\Exception\Handler->handleError(8, 'Array to string...', 'C:\\wamp\\www\\gru...', 38, Array)
+#1 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#2 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#3 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#7 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#17 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#18 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#19 {main} [] []
+[2015-02-10 10:10:26] production.ERROR: 500 - end() expects parameter 1 to be array, string given @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'end() expects parameter 1 to be array, string given' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:39
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'end() expects p...', 'C:\\wamp\\www\\gru...', 39, Array)
+#1 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(39): end('foo@foo.com')
+#2 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#3 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#6 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#20 {main} [] []
+[2015-02-10 10:10:43] production.ERROR: 500 - end() expects parameter 1 to be array, string given @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'end() expects parameter 1 to be array, string given' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:39
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'end() expects p...', 'C:\\wamp\\www\\gru...', 39, Array)
+#1 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(39): end('foo@foo.com')
+#2 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#3 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#6 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#20 {main} [] []
+[2015-02-10 10:19:56] production.ERROR: 500 - end() expects parameter 1 to be array, string given @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'end() expects parameter 1 to be array, string given' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:41
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'end() expects p...', 'C:\\wamp\\www\\gru...', 41, Array)
+#1 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(41): end('spel')
+#2 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#3 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#6 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#20 {main} [] []
+[2015-02-10 10:19:58] production.ERROR: 500 - end() expects parameter 1 to be array, string given @ /search/project/email_category/foo@foo.com_spel+kod-game+code/
+exception 'ErrorException' with message 'end() expects parameter 1 to be array, string given' in C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php:41
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'end() expects p...', 'C:\\wamp\\www\\gru...', 41, Array)
+#1 C:\wamp\www\grupp2\laravel\app\controllers\SearchController.php(41): end('spel')
+#2 [internal function]: SearchController->index('project', 'email_category', 'foo@foo.com_spe...')
+#3 C:\wamp\www\grupp2\laravel\vendor\laravel\framework\src\Illuminate\Routing\Controller.php(231): call_user_func_array(Array, Array)
+#4 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5834): Illuminate\Routing\Controller->callAction('index', Array)
+#5 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5822): Illuminate\Routing\ControllerDispatcher->call(Object(SearchController), Object(Illuminate\Routing\Route), 'index')
+#6 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5027): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SearchControlle...', 'index')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('project', 'email_category', 'foo@foo.com_spe...')
+#8 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5385): call_user_func_array(Object(Closure), Array)
+#9 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5052): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(5040): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(7812): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8419): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#15 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(8366): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#16 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(11029): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 C:\wamp\www\grupp2\laravel\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#18 C:\wamp\www\grupp2\laravel\public\index.php(49): Illuminate\Foundation\Application->run()
+#19 C:\wamp\www\grupp2\laravel\server.php(19): require_once('C:\\wamp\\www\\gru...')
+#20 {main} [] []
