@@ -476,7 +476,7 @@ class Application extends Container implements HttpKernelInterface, TerminableIn
     }
     public static function getBootstrapFile()
     {
-        return '/var/www/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Foundation' . '/start.php';
+        return '/home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Foundation' . '/start.php';
     }
     public function startExceptionHandling()
     {
@@ -1351,7 +1351,7 @@ class Request
             $dup->attributes->set('_format', $this->get('_format'));
         }
         if (!$dup->getRequestFormat(null)) {
-            $dup->setRequestFormat($this->getRequestFormat(null));
+            $dup->setRequestFormat($format = $this->getRequestFormat(null));
         }
         return $dup;
     }
@@ -1899,7 +1899,7 @@ class Request
         if ($baseUrl && false !== ($prefix = $this->getUrlencodedPrefix($requestUri, $baseUrl))) {
             return $prefix;
         }
-        if ($baseUrl && false !== ($prefix = $this->getUrlencodedPrefix($requestUri, dirname($baseUrl) . '/'))) {
+        if ($baseUrl && false !== ($prefix = $this->getUrlencodedPrefix($requestUri, dirname($baseUrl)))) {
             return rtrim($prefix, '/');
         }
         $truncatedRequestUri = $requestUri;
@@ -9976,7 +9976,7 @@ class Response
     public function prepare(Request $request)
     {
         $headers = $this->headers;
-        if ($this->isInformational() || $this->isEmpty()) {
+        if ($this->isInformational() || in_array($this->statusCode, array(204, 304))) {
             $this->setContent(null);
             $headers->remove('Content-Type');
             $headers->remove('Content-Length');
