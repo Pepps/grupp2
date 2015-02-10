@@ -57,3 +57,474 @@ Stack trace:
 #2 C:\Users\Jesper\Documents\ME1526\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #3 C:\Users\Jesper\Documents\ME1526\laravel\artisan(59): Symfony\Component\Console\Application->run()
 #4 {main} [] []
+[2015-02-07 00:58:47] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '50' (T_LNUMBER)' in /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_002901_create_users_table.php:18
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-07 01:00:29] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '50' (T_LNUMBER)' in /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php:18
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-07 01:01:45] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ':'' in /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php:21
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-07 01:02:13] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM)' in /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php:21
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-07 01:04:50] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot access empty property' in /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php:21
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-07 01:05:29] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Cannot access empty property' in /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php:22
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-07 01:05:40] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM)' in /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php:21
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-07 01:25:09] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'email' doesn't exist in table' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:369
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(369): PDOStatement->execute(Array)
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'alter table `us...', Array)
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `us...', Array, Object(Closure))
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `us...', Array, Object(Closure))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `us...')
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_07_0059...', 3, false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#21 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'email' doesn't exist in table (SQL: alter table `users` add unique users_email_unique(`email`))' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `us...', Array, Object(Closure))
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `us...', Array, Object(Closure))
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `us...')
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_07_0059...', 3, false)
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2015-02-07 01:27:18] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:369
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(369): PDOStatement->execute(Array)
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'create table `u...', Array)
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('create table `u...', Array, Object(Closure))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('create table `u...')
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_07_0059...', 3, false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#21 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` int unsigned not null auto_increment primary key, `fname` varchar(50) not null, `lname` varchar(50) not null, `email` varchar(255) not null, `password` varchar(60) not null, `created_at` timestamp default 0 not null, `updated_at` timestamp default 0 not null, `token` varchar(100) not null, `FBauth_token` varchar(255) not null, `googleauth_token` varchar(255) not null, `p_dir` varchar(60) not null) default character set utf8 collate utf8_unicode_ci)' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('create table `u...', Array, Object(Closure))
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('create table `u...')
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_07_0059...', 3, false)
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2015-02-07 01:28:29] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'stats_id' doesn't exist in table' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:369
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(369): PDOStatement->execute(Array)
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'alter table `us...', Array)
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `us...', Array, Object(Closure))
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `us...', Array, Object(Closure))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `us...')
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_07_0059...', 3, false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#21 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'stats_id' doesn't exist in table (SQL: alter table `users` add constraint users_stats_id_foreign foreign key (`stats_id`) references `stats` (`id`))' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `us...', Array, Object(Closure))
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `us...', Array, Object(Closure))
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `us...')
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_07_0059...', 3, false)
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2015-02-07 01:31:26] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:369
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(369): PDOStatement->execute(Array)
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'create table `u...', Array)
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('create table `u...', Array, Object(Closure))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('create table `u...')
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_07_0059...', 3, false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#21 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` int unsigned not null auto_increment primary key, `fname` varchar(50) not null, `lname` varchar(50) not null, `email` varchar(255) not null, `password` varchar(60) not null, `created_at` timestamp default 0 not null, `updated_at` timestamp default 0 not null, `token` varchar(100) not null, `FBauth_token` varchar(255) not null, `googleauth_token` varchar(255) not null, `p_dir` varchar(60) not null) default character set utf8 collate utf8_unicode_ci)' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('create table `u...', Array, Object(Closure))
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('create table `u...')
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_07_0059...', 3, false)
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2015-02-07 01:31:35] production.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1005 Can't create table 'uniculum.#sql-459_43' (errno: 150)' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:369
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(369): PDOStatement->execute(Array)
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'alter table `us...', Array)
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `us...', Array, Object(Closure))
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `us...', Array, Object(Closure))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `us...')
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_07_0059...', 3, false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#21 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[HY000]: General error: 1005 Can't create table 'uniculum.#sql-459_43' (errno: 150) (SQL: alter table `users` add constraint users_id_foreign foreign key (`id`) references `stats` (`stats_id`))' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `us...', Array, Object(Closure))
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `us...', Array, Object(Closure))
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `us...')
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_07_0059...', 3, false)
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2015-02-07 01:34:27] production.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1005 Can't create table 'uniculum.#sql-459_44' (errno: 150)' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:369
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(369): PDOStatement->execute(Array)
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'alter table `us...', Array)
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `us...', Array, Object(Closure))
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `us...', Array, Object(Closure))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `us...')
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_07_0059...', 3, false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#21 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[HY000]: General error: 1005 Can't create table 'uniculum.#sql-459_44' (errno: 150) (SQL: alter table `users` add constraint users_id_foreign foreign key (`id`) references `stats` (`stats_id`))' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `us...', Array, Object(Closure))
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `us...', Array, Object(Closure))
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `us...')
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_07_005933_create_users_table.php(28): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_07_0059...', 3, false)
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2015-02-09 12:16:09] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '60' (T_LNUMBER)' in /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_113627_create_experiences_table.php:23
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-09 12:16:28] production.ERROR: exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1005 Can't create table 'uniculum.#sql-441_32' (errno: 150)' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:369
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(369): PDOStatement->execute(Array)
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'alter table `ex...', Array)
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `ex...', Array, Object(Closure))
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `ex...', Array, Object(Closure))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `ex...')
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('experiences', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_113627_create_experiences_table.php(27): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_113627_create_experiences_table.php(27): Illuminate\Support\Facades\Schema::create('experiences', Object(Closure))
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateExperiencesTable->up()
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_09_1136...', 4, false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#21 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[HY000]: General error: 1005 Can't create table 'uniculum.#sql-441_32' (errno: 150) (SQL: alter table `experiences` add constraint experiences_stats_id_foreign foreign key (`stats_id`) references `stats` (`id`))' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('alter table `ex...', Array, Object(Closure))
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('alter table `ex...', Array, Object(Closure))
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('alter table `ex...')
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('experiences', Object(Closure))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_113627_create_experiences_table.php(27): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_113627_create_experiences_table.php(27): Illuminate\Support\Facades\Schema::create('experiences', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateExperiencesTable->up()
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_09_1136...', 4, false)
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2015-02-09 12:17:04] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'experiences' already exists' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:369
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(369): PDOStatement->execute(Array)
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'create table `e...', Array)
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('create table `e...', Array, Object(Closure))
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('create table `e...', Array, Object(Closure))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('create table `e...')
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('experiences', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_113627_create_experiences_table.php(27): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_113627_create_experiences_table.php(27): Illuminate\Support\Facades\Schema::create('experiences', Object(Closure))
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateExperiencesTable->up()
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_09_1136...', 4, false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#21 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'experiences' already exists (SQL: create table `experiences` (`id` int unsigned not null auto_increment primary key, `user_id` int unsigned not null, `created_at` timestamp default 0 not null, `updated_at` timestamp default 0 not null, `project_body` text not null, `project_url` varchar(60) not null, `stats_id` int unsigned not null) default character set utf8 collate utf8_unicode_ci engine = InnoDB)' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('create table `e...', Array, Object(Closure))
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('create table `e...', Array, Object(Closure))
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('create table `e...')
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('experiences', Object(Closure))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_113627_create_experiences_table.php(27): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_113627_create_experiences_table.php(27): Illuminate\Support\Facades\Schema::create('experiences', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateExperiencesTable->up()
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_09_1136...', 4, false)
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#19 {main} [] []
+[2015-02-09 12:23:55] production.ERROR: exception 'InvalidArgumentException' with message 'Command "merge" is not defined.' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php:564
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(190): Symfony\Component\Console\Application->find('merge')
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2015-02-09 12:25:55] production.ERROR: exception 'InvalidArgumentException' with message 'Command "merge" is not defined.' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php:564
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(190): Symfony\Component\Console\Application->find('merge')
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2015-02-09 13:26:52] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'function' (T_FUNCTION)' in /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_131608_create_references_table.php:15
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2015-02-09 13:52:20] production.ERROR: exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:369
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(369): PDOStatement->execute(Array)
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(617): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'create table `u...', Array)
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('create table `u...', Array, Object(Closure))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('create table `u...')
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_135150_create_users_table.php(31): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_135150_create_users_table.php(31): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_09_1351...', 7, false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#21 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` int unsigned not null auto_increment primary key, `fname` varchar(50) not null, `lname` varchar(50) not null, `email` varchar(255) not null, `password` varchar(60) not null, `created_at` timestamp default 0 not null, `updated_at` timestamp default 0 not null, `token` varchar(100) not null, `remember_token` varchar(100) null, `FBauth_token` varchar(255) not null, `googleauth_token` varchar(255) not null, `p_dir` varchar(60) not null, `stats_id` int unsigned not null) default character set utf8 collate utf8_unicode_ci engine = InnoDB)' in /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:625
+Stack trace:
+#0 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(581): Illuminate\Database\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
+#1 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(370): Illuminate\Database\Connection->run('create table `u...', Array, Object(Closure))
+#2 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(63): Illuminate\Database\Connection->statement('create table `u...')
+#3 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(169): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(112): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 /home/kevin/Desktop/Laravel/grupp2/laravel/bootstrap/compiled.php(3261): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
+#6 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_135150_create_users_table.php(31): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
+#7 /home/kevin/Desktop/Laravel/grupp2/laravel/app/database/migrations/2015_02_09_135150_create_users_table.php(31): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
+#8 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateUsersTable->up()
+#9 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2015_02_09_1351...', 7, false)
+#10 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#11 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(70): Illuminate\Database\Migrations\Migrator->run('/home/kevin/Des...', false)
+#12 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(112): Illuminate\Database\Console\Migrations\MigrateCommand->fire()
+#13 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Command/Command.php(253): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/laravel/framework/src/Illuminate/Console/Command.php(100): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(889): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(193): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /home/kevin/Desktop/Laravel/grupp2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /home/kevin/Desktop/Laravel/grupp2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#19 {main} [] []
