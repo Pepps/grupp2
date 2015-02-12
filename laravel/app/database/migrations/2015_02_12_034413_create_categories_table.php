@@ -16,6 +16,7 @@ class CreateCategoriesTable extends Migration {
 		{
 			$table->increments('id');
 			$table->string('category_title', 50);
+			$table->integer('subcategoryid');
 		});
 	}
 

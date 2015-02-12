@@ -11,9 +11,4 @@
 |
 */
 
-Route::get('/', function()
-{
-	//return View::make('hello');
-	  echo User::All();
-
-});
+Route::resource('Project', "ProjectController");
