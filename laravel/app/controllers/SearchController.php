@@ -30,6 +30,10 @@ class SearchController extends BaseController {
     }*/
     $json = json_encode($data);
     echo "<pre>" . $option . ": " . $json . "</pre>";
+
+    // Get all rows in option table, but we are going to sort things out before calling it with ->get();
+    $table = DB::table($option);
+
     $query = 'SELECT * FROM ' . $option . ' WHERE';
 
     foreach($data as $key => $value){
@@ -40,21 +44,22 @@ class SearchController extends BaseController {
         $query = $query . " '%" . $explode . "%'";
           if(end($split) !== $explode){
             $query = $query . " AND";
+            $table->where($key,"=",$explode);
           }
         }
         if(end($value) !== $string) {
           $query = $query . "' OR";
+          $table->orWhere($key,"=",$explode);
         }
       }
-      if(end($data[$key]) !== $key){
+      if(end($data) !== $value){
         $query = $query . "' AND";
       }
     }
-
-    $query = rtrim($query, " AND");
-    $query = rtrim($query, " OR");
     $query = $query . "';";
     echo $query;
+
+   $table->get(); // Runs the query we have build up.
   }
 
 }
