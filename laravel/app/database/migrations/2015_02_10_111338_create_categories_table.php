@@ -14,9 +14,8 @@ class CreateCategoriesTable extends Migration {
 	{
 		Schema::create('categories', function($table)
 		{
-			$table->engine = 'InnoDB';
 			$table->increments('id');
-			$table->string('project_title', 50);
+			$table->string('category_title', 50);
 		});
 	}
 

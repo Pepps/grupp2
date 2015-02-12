@@ -14,5 +14,6 @@
 Route::get('/', function()
 {
 	//return View::make('hello');
-	return "olle";
+	  echo User::All();
+
 });
